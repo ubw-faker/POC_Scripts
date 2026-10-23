@@ -1,3 +1,5 @@
+# This was created to reduce the time tracing a MAC address to a device in the access layer.
+# The accuracy is not a hundred percent, as this can be incorrectly reported from the appliance.
 
 $characterFlag
 while(!$characterFlag -or $characterFlag -EQ -1) {
